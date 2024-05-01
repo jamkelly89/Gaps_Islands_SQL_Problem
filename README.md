@@ -9,7 +9,7 @@ I was able to reduce the runtime from 2+ hours down to 20 seconds
 ## Research
 There is a lot of information on the "Gaps & Islands problem" or "time interval union problem" with solutions in many languages. I enjoyed the one I found from Itzik the New 1: 17 seconds found [here](https://www.itprotoday.com/development-techniques-and-management/solutions-packing-date-and-time-intervals-puzzle). The solution references a problem called maximum concurrent sessions. 
 
-It is really cool to treat the start and ends as discreet events. I found the replacing of joins with math to be pretty slick.
+It is really cool to treat the start and ends as discrete events. I found the replacing of joins with math to be pretty slick.
 
 ## Other resources on the problem 
 - https://chaoxu.prof/posts/2019-04-27-union-of-intervals-in-sql.html
