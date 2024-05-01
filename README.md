@@ -4,7 +4,7 @@ This repository takes overlapping time intervals, combines them, and returns the
 ## Application
 I was asked to reduce the runtime of SQL code that used cross joins to combine overlapping intervals and refresh a table. The code also merged adjacent intervals (as defined by adjacent days). These time intervals represented participant stays in a health care faciltiy. 
 
-I was able to reduce the runtime from 2+ hours down to 20 seconds
+I was able to reduce the runtime from 2+ hours down to 20 seconds. You can modify the code to include more fields as your id field, adjust the math on how to define adjacent stays, or eliminate the adjacent piece entirely. 
 
 ## Research
 There is a lot of information on the "Gaps & Islands problem" or "time interval union problem" with solutions in many languages. I enjoyed the one I found from Itzik the New 1: 17 seconds found [here](https://www.itprotoday.com/development-techniques-and-management/solutions-packing-date-and-time-intervals-puzzle). The solution references a problem called maximum concurrent sessions. The Itzik solution I pulled was not the fastest solution posted, but the one I enjoyed implementing for my application. 
