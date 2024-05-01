@@ -2,7 +2,9 @@
 This repository takes overlapping time intervals, combines them, and returns the longest continuous time interval in SQL. It can also merge adjacent intervals.
 
 ## Application
-I was asked to reduce the runtime of some SQL code that used cross joins to combine overlapping intervals. It also merged adjacent intervals (as defined by adjacent days). These time intervals represented participant stays in a health care faciltiy. 
+I was asked to reduce the runtime of SQL code that used cross joins to combine overlapping intervals and refresh a table. The code also merged adjacent intervals (as defined by adjacent days). These time intervals represented participant stays in a health care faciltiy. 
+
+I was able to reduce the runtime from 2+ hours down to 20 seconds
 
 ## Research
 There is a lot of information on the "Gaps & Islands problem" or "time interval union problem" with solutions in many languages. I enjoyed the one I found from Itzik the New 1: 17 seconds found [here](https://www.itprotoday.com/development-techniques-and-management/solutions-packing-date-and-time-intervals-puzzle). The solution references a problem called maximum concurrent sessions. 
