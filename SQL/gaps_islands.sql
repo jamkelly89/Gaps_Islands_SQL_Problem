@@ -1,4 +1,4 @@
---I created indices on id and starttime, and id and endtime
+--I created indices on the table for id and starttime, and id and endtime
 
 WITH C1 AS
 
