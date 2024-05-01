@@ -1,3 +1,5 @@
+--I created indices on id and starttime, and id and endtime
+
 WITH C1 AS
 
 -- let e = end ordinals, let s = start ordinals
